@@ -1,0 +1,1 @@
+This is my first "real" project where I will be creating a GitHub repository, linking it into my Ubuntu, and creating the Google search page. 
