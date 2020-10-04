@@ -1,45 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8">
-    <meta name="description" content="">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Google</title>
-    <link rel="stylesheet" href="styles/reset.css">
-    <link rel="stylesheet" href="styles/styles.css">
-    <style>
-
-    </style>
-</head>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="styles.css">
+</head>  
 <body>
-    <nav>
-        <ul>
-            <li class="about"><a href="#"></a>About</li>
-            <li class="store"><a href="#"></a>Store</li>
-            <li class="gmail"><a href="#"></a>Gmail</li>
-            <li class="images"><a href="#"></a>Images</li>
-            <li class="apps"><a href="#"></a><img src="https://i.ibb.co/HK4fhmy/google-icons.png" alt="Google Apps"></li>
-            <li class="sign_in"><button type="submit" class="signupbtn">Sign Up</button></li>
-        </ul>
-    </nav>
+    <header>
+        <nav>
+            <ul>
+                <div class="leftnav">
+                    <li class="about"><a href="#"></a>About</li>
+                    <li class="store"><a href="#"></a>Store</li>
+                </div>
+                <div class="rightnav">
+                    <li class="sign_in"><button type="submit" class="signupbtn">Sign Up</button></li>
+                    <li class="apps"><a href="#"></a><img src="https://i.ibb.co/HK4fhmy/google-icons.png" alt="Google Apps"></li>
+                    <li class="images"><a href="#"></a>Images</li>
+                    <li class="gmail"><a href="#"></a>Gmail</li>
+                </div>
+            </ul>
+            
+        </nav>
+    </header>
+    <main>
     <div class="logo">
         <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
     </div>
     <div class="searchbox">
-        <input class="input" type="text">
+        <input class="input" type="text" placeholder="Search">
     </div>
     <div class="buttons">
-        <button type="submit" class="googlesearch">Google Search</button>
+        <button type="submit" class="googlesearch">Google Search</a></button>
+        <div class="lucky">
         <button type="submit" class="imfeelinglucky">I'm Feeling Lucky</button>
+        </div>
     </div>
+    </main>
     <footer>
         <nav>
-            <ul>
-                <li class="advertising"><a href="#"></a>Advertising</li>
-                <li class="business"><a href="#"></a>Business</li>
-                <li class="howsearchworks"><a href="#"></a>How Search Works</li>
-                <li class="privacy"><a href="#"></a>Privacy</li>
-                <li class="terms"><a href="#"></a>Terms</li>
-                <li class="settings"><a href="#"></a>Settings</li>
+            <ul class="footernav">
+                <div class="leftfooter">
+                    <li class="advertising"><a href="#"></a>Advertising</li>
+                    <li class="business"><a href="#"></a>Business</li>
+                    <li class="howsearchworks"><a href="#"></a>How Search Works</li>
+                </div>
+                <div class="rightfooter">
+                    <li class="settings"><a href="#"></a>Settings</li>
+                    <li class="terms"><a href="#"></a>Terms</li>
+                    <li class="privacy"><a href="#"></a>Privacy</li>
+                </div>
 
             </ul>
         </nav>
